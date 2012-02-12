@@ -1,0 +1,4 @@
+{
+	"last_test_file": "sessions_controller_spec.rb",
+	"last_test_run": "cd '/Users/mrdempsey/Developer/MirthHQ/' && bundle exec rspec spec/controllers/sessions_controller_spec.rb"
+}

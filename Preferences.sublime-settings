@@ -1,21 +1,21 @@
 {
-	"auto_complete_commit_on_tab": true,
-	"theme": "Soda Dark.sublime-theme",
+	"auto_complete_commit_on_tab": false,
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"draw_minimap_border": true,
 	"font_face": "Monaco",
-	"translate_tabs_to_spaces": true,
-	"tab_size": 2,
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 13,
+	"font_size": 13.0,
 	"highlight_line": true,
 	"hot_exit": false,
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
-	"remember_open_files": false
+	"remember_open_files": false,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
