@@ -1,18 +1,21 @@
 {
-	"auto_upgrade_last_run": 1329007930,
+	"auto_upgrade_last_run": 1332544843,
 	"installed_packages":
 	[
 		"Alignment",
 		"BeautifyRuby",
 		"CoffeeScript",
 		"ColorPicker",
+		"Display Functions (Java)",
 		"Gist",
 		"Git",
 		"HTML5",
+		"Markdown Preview",
 		"Package Control",
 		"RSpec",
 		"RubyTest",
 		"SCSS",
+		"Simple Rails Navigator",
 		"Theme - Soda",
 		"ZenCoding"
 	]
