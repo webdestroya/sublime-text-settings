@@ -12,10 +12,18 @@ class DetectFileTypeCommand(sublime_plugin.EventListener):
       return
 
     name = os.path.basename(filename.lower())
-    if name == "gemfile":
+    if name[-8:] == "_spec.rb":
+      set_syntax(view, "RSpec", "RSpec")
+    elif name == "factories.rb":
+      set_syntax(view, "RSpec", "RSpec")
+    elif name[-8:] == "html.erb":
+      set_syntax(view, "HTML (Rails)", "Rails")
+    elif name == "gemfile":
       set_syntax(view, "Ruby on Rails", "Rails")
     elif name[-2:] == "rb":
       set_syntax(view, "Ruby on Rails", "Rails")
+    elif name[-3:] == "tag"
+      set_syntax(view, "Java Server Pages (JSP)", "Java")
 
 
 def set_syntax(view, syntax, path=None):
